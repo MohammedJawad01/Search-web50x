@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div>
+      <ul class="navbar">
+        <li><a href="index.html" class="navbar-item">Google</a></li>
+      </ul>
+    </div>
+    <p class="p-advanced">Advanced Search</p>
+
+    <div class="line"></div>
+
+    <div class="div-advanced">
+      <div class="upper-advanced-form">
+        <p class="p-find-pages">Find pages with...</p>
+        <p class="p-find-pages">To do this in the search box.</p>
+      </div>
+      <form action="https://google.com/search">
+        <div class="Advanced-search-form">
+          <div class="Advanced-left-side">
+            <p class="p-Advanced-left-side">all these words:</p>
+          </div>
+          <div class="Advanced-right-side">
+            <input
+              type="text"
+              name="as_q"
+              class="Advanced-search-input form-control"
+            />
+          </div>
+          <p class="advanced-search-right-p">
+            Type the important words: tri-colour rat terrier
+          </p>
+        </div>
+
+        <div class="Advanced-search-form">
+          <div class="Advanced-left-side">
+            <p class="p-Advanced-left-side">this exact word or phrase:</p>
+          </div>
+          <div class="Advanced-right-side">
+            <input
+              type="text"
+              name="as_epq"
+              class="Advanced-search-input form-control"
+            />
+          </div>
+          <p class="advanced-search-right-p">
+            Put exact words in quotes: "rat terrier"
+          </p>
+        </div>
+
+        <div class="Advanced-search-form">
+          <div class="Advanced-left-side">
+            <p class="p-Advanced-left-side">any of these words:</p>
+          </div>
+          <div class="Advanced-right-side">
+            <input
+              type="text"
+              name="as_oq"
+              class="Advanced-search-input form-control"
+            />
+          </div>
+          <p class="advanced-search-right-p">
+            Type OR between all the words you want: miniature OR standard
+          </p>
+        </div>
+
+        <div class="Advanced-search-form">
+          <div class="Advanced-left-side">
+            <p class="p-Advanced-left-side">none of these words:</p>
+          </div>
+          <div class="Advanced-right-side">
+            <input
+              type="text"
+              name="as_eq"
+              class="Advanced-search-input form-control"
+            />
+          </div>
+          <p class="advanced-search-right-p">
+            Put a minus sign just before words that you don't want: -rodent,
+            -"Jack Russell"
+          </p>
+        </div>
+
+        <div class="advanced-search-btn-div">
+          <input
+            type="submit"
+            value="Advanced Search"
+            class="btn Advanced-Search-btn"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
